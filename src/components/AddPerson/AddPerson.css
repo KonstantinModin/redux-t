@@ -1,0 +1,9 @@
+.AddPerson {
+    text-align: center;
+    margin: 30px;
+}
+
+.AddPerson button {
+    font-size: 200%;
+    padding: 10px 30px;
+}
