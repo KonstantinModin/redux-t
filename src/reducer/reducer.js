@@ -5,7 +5,7 @@ const initialState = {
 const reducer = (state = initialState, { type, payload }) => {
     const randomPerson = {
         id: Math.random()*Math.random(),
-        name: ['Bob', 'Dan', 'Peter', 'Donald', 'Ray'][~~(Math.random()*10) % 5],
+        name: ['Bob', 'Dan', 'Peter', 'Max', 'Ray', 'Rob'][~~(Math.random()*10) % 6],
         age: ~~(Math.random()*50)
     };
     
