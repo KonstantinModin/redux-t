@@ -23,7 +23,7 @@ const mapStateToProps = ({persons}) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        add: () => dispatch({type: 'ADD'}),
+        add: (n, a) => dispatch({type: 'ADD', payload: {name: n, age: a}}),       
         del: (id) => dispatch({type: 'DEL', payload: id})
     }
 }
