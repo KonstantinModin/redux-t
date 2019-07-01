@@ -6,8 +6,7 @@ const addPerson = (props) => {
     const [age, setAge] = useState('');
     
     const nameChangedHandler = ({target: {value}}) => setName(value);
-    const ageChangedHandler = ({target: {value}}) => setAge(value);
-    
+    const ageChangedHandler = ({target: {value}}) => setAge(value);    
     
     return (
         <div className="AddPerson">
